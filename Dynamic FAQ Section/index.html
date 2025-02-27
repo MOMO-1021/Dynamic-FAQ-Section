@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic FAQ Section</title>
+    <meta name="description" content="A Dynamic FAQ Section">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="faq">
+        <!-- 1st FAQ Section -->
+        <button class="faq__question">
+            <p class="faq__text">What is JavaScript? &ensp;</p>
+            <i class="caret fa-solid fa-caret-up"></i>
+        </button>
+        <div class="faq__answer">
+            <p class="faq__answerText">
+                JavaScript is a Just-in-time Compiler Programming Language.<br/>
+                It is a multi-paradigm which means that it supports various programming styles(Object-Oriented Programming, Procedural Programming and Functional Programming.)
+            </p>
+        </div>
+        <hr/>
+        <!-- 2nd FAQ Section -->
+        <br />  <!-- br is used to make sure that the two buttons are not on the same line.-->
+        <button class="faq__question">
+            <p class="faq__text">What is CSS Grid? &ensp;</p>
+            <i class="caret fa-solid fa-caret-up"></i>
+        </button>
+        <div class="faq__answer">
+            <p class="faq__answerText">
+                CSS Grid is a layout system where it is used to create Responsive Designs using Rows and Columns.<br/>
+                Unlike older methods like floats, CSS Grid gives more control over alignment and adapts well to different screen sizes.
+            </p>
+        </div>
+        <hr/>
+        <br/>
+        <button class="faq__question">
+            <p class="faq__text">What is CSS Flexbox? &ensp;</p>
+            <i class="caret fa-solid fa-caret-up"></i>
+        </button>
+        <div class="faq__answer">
+            <p class="faq__answerText">
+                Flexbox, short for Flexible Box Layout, is a one-dimensional layout method for aligning and distributing space among items in a container.<br/>
+                Flexbox eliminates the need for floats or complex positioning, enabling responsive and dynamic layouts.
+            </p>
+        </div>
+        <hr/>
+    </div>
+    <script src="https://kit.fontawesome.com/754c307540.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
